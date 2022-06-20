@@ -132,6 +132,7 @@ img {
 
 /* Header */
 .header {
+  position: relative;
   width: 100%;
   background-color: var(--header-bg);
   border-bottom: 1px solid var(--header-border-color);
@@ -162,11 +163,11 @@ img {
   margin-left: 93px;
 }
 
-.header-item {
+.header-menu-item {
   display: flex;
 }
 
-.header-item:not(:last-child) {
+.header-menu-item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -183,6 +184,11 @@ img {
 .header-menu-item-decor:focus {
   color: var(--accent-color);
 }
+
+.current {
+  color: var(--accent-color);
+}
+
 /* Links */
 
 .header-links {
