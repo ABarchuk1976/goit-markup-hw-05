@@ -55,6 +55,9 @@
 
   --social-icon-width: 20px;
   --social-icon-height: 20px;
+
+  --defaul-duration: 250ms;
+  --default-timing: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* body */
@@ -170,6 +173,8 @@ img {
   color: var(--header-menu-color);
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  transition: color var(--defaul-duration) var(--default-timing);
 }
 
 .header-menu-item-decor:hover,
@@ -192,6 +197,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-link-color);
+
+  transition: color var(--defaul-duration) var(--default-timing);
 }
 
 .header-link-item-decor:hover,
@@ -245,12 +252,16 @@ img {
   color: var(--footer-contacts-color);
   line-height: 1.71;
   margin-bottom: 9px;
+
+  transition: color var(--defaul-duration) var(--default-timing);
 }
 
 .footer-tel {
   text-decoration: none;
   color: var(--footer-contacts-color);
   line-height: 1.71;
+
+  transition: color var(--defaul-duration) var(--default-timing);
 }
 
 .footer-mailto:hover,
@@ -290,6 +301,8 @@ img {
   border-radius: 50%;
   background-color: var(--footer-social-icons-bg);
   padding: 12px;
+
+  transition: background-color var(--defaul-duration) var(--default-timing);
 }
 
 .footer-social-link:hover,
@@ -333,6 +346,8 @@ img {
   border: none;
   border-radius: 4px;
   padding: 10px 32px;
+
+  transition: background-color var(--defaul-duration) var(--default-timing);
 }
 
 .hero-button:hover,
@@ -484,6 +499,8 @@ img {
   margin: 0;
   color: var(--team-social-icons-color);
   cursor: pointer;
+
+  transition: color var(--defaul-duration) var(--default-timing);
 }
 
 .team-social-link:hover,
@@ -516,6 +533,9 @@ img {
   background-color: var(--clients-bg);
   border: 1px solid var(--clients-border-color);
   border-radius: var(--clients-border-radius);
+
+  transition: color var(--defaul-duration) var(--default-timing),
+    border var(--defaul-duration) var(--default-timing);
 }
 
 .clients-list-link:hover,
@@ -578,6 +598,10 @@ img {
   letter-spacing: 0.06em;
   cursor: pointer;
   padding: 6px 22px;
+
+  transition: color var(--defaul-duration) var(--default-timing),
+    background-color var(--defaul-duration) var(--default-timing),
+    box-shadow var(--defaul-duration) var(--default-timing);
 }
 
 .filter-button:last-child {
@@ -615,6 +639,8 @@ img {
   display: block;
   text-decoration: none;
   color: inherit;
+
+  transition: box-shadow var(--defaul-duration) var(--default-timing);
 }
 
 .portfolio-link:hover,
