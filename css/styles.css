@@ -58,7 +58,8 @@
   --social-icon-width: 20px;
   --social-icon-height: 20px;
 
-  --defaul-duration: 2250ms;
+  --defaul-duration: 250ms;
+
   --default-timing: cubic-bezier(0.4, 0, 0.2, 1);
 
   --portfolio-photo-overlay-color: #ffffff;
@@ -144,7 +145,7 @@ img {
 }
 
 .header .container {
-  display: flex;
+  display: inline-flex;
   align-items: stretch;
 }
 
