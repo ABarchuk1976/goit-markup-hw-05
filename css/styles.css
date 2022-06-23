@@ -644,7 +644,7 @@ img {
     box-shadow var(--defaul-duration) var(--default-timing);
 }
 
-.filter-button:last-child {
+.filter-buttons-item:not(:last-child) {
   margin-right: 8px;
 }
 
