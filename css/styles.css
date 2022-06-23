@@ -428,8 +428,8 @@ img {
   transform: translate(-50%, -50%) scale(1);
   opacity: 1;
 
-  min-width: 528px;
-  min-height: 581px;
+  width: 528px;
+  height: 581px;
   background-color: var(--modal-bg);
   border-radius: var(--modal-board-radius);
   box-shadow: var(--modal-shadow);
